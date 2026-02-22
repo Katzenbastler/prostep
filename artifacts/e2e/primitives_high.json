@@ -1,0 +1,82 @@
+{
+  "input_stl": "C:\\Users\\delil\\OneDrive\\Dokumente\\Idle_Hours\u2013Chapter_1_SoftViolence\\artifacts\\e2e\\inputs\\primitives.stl",
+  "output_step": "C:\\Users\\delil\\OneDrive\\Dokumente\\Idle_Hours\u2013Chapter_1_SoftViolence\\artifacts\\e2e\\primitives_high.step",
+  "quality_mode": "high",
+  "features": [
+    {
+      "feature_id": 0,
+      "primitive": "torus",
+      "params": {
+        "center": [
+          14.999999957805683,
+          11.000000018645386,
+          21.999999988140246
+        ],
+        "axis_dir": [
+          -1.1742100875567127e-10,
+          2.9136497470442794e-10,
+          -1.0
+        ],
+        "major_radius": 14.300537581510111,
+        "minor_radius": 14.645634975184624
+      },
+      "inlier_count": 244,
+      "rmse_mm": 7.71815800047517e-08,
+      "confidence": 0.9759993722564878,
+      "adjacency": [
+        1
+      ]
+    },
+    {
+      "feature_id": 1,
+      "primitive": "freeform",
+      "params": {
+        "method": "bspline_fallback"
+      },
+      "inlier_count": 6,
+      "rmse_mm": 0.0,
+      "confidence": 0.0,
+      "adjacency": [
+        0
+      ]
+    }
+  ],
+  "stats": {
+    "elapsed_sec": 143.4846534000244,
+    "mesh": {
+      "vertex_count": 250,
+      "face_count": 492,
+      "sampled_points": 250,
+      "watertight": true,
+      "euler_number": 4,
+      "non_manifold_edges_before": 0,
+      "non_manifold_edges_after": 0
+    },
+    "primitive_counts": {
+      "torus": 1,
+      "freeform": 1
+    },
+    "brep_valid": true,
+    "brep_watertight": false,
+    "self_intersection_free": true,
+    "extra_analysis": {
+      "boolean_like": {
+        "through_holes": 0,
+        "blind_holes": 0,
+        "pockets": 0,
+        "ribs": 0
+      },
+      "continuity": {
+        "g1_pairs": 4,
+        "g2_pairs": 4
+      },
+      "symmetry": {
+        "mirror_xy": false,
+        "mirror_yz": false,
+        "mirror_xz": false
+      },
+      "rotational_body": false
+    }
+  },
+  "diagnostics": []
+}

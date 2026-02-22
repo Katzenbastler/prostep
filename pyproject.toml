@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stl-reconstructor-local"
+version = "0.1.0"
+description = "Local feature-based STL to parametric STEP AP242 reverse engineering tool"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "trimesh>=4.4",
+  "open3d>=0.18",
+  "cadquery>=2.7.0",
+]
+
+[tool.setuptools]
+packages = ["stl_reconstructor"]
+
+[tool.pytest.ini_options]
+testpaths = ["stl_reconstructor/tests"]

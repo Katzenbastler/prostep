@@ -1,0 +1,11 @@
+{
+  "app": "stl-reconstructor",
+  "channels": {
+    "stable": {
+      "version": "0.2.0",
+      "url": "https://example.com/releases/STLReconstructor-0.2.0-win64.zip",
+      "sha256": "REPLACE_WITH_SHA256"
+    }
+  }
+}
+
