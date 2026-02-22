@@ -1,0 +1,38 @@
+# Virtual environment
+v/
+.venv/
+venv/
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# C++ build artifacts
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# PyInstaller
+artifacts/
+*.spec
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
